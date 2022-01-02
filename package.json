@@ -1,0 +1,28 @@
+{
+  "name": "sandstone-commands-mod",
+  "version": "1.0.0",
+  "description": "A Sandstone datapack library depending on various mods for new commands",
+  "main": "build/main.js",
+  "types": "build/main.d.ts",
+  "scripts": {
+    "watch": "sand watch",
+    "build": "sand build"
+  },
+  "keywords": [],
+  "author": "MulverineX",
+  "repository": {
+    "url": "https://github.com/MulverineX/sandstone-commands-mod"
+  },
+  "license": "CC0-1.0",
+  "dependencies": {
+    "sandstone": "^0.14.0-alpha.7"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.6",
+    "sandstone-cli": "^0.5.4",
+    "typescript": "^4.5.4"
+  },
+  "engines": {
+    "node": ">=12.9.0"
+  }
+}
